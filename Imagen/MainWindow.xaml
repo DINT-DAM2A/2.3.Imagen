@@ -9,13 +9,13 @@
     <Grid>
         <Image x:Name="Imagen" Source="./img/episodioIV.jpg" HorizontalAlignment="Left" Height="355" Margin="40,40,0,0" VerticalAlignment="Top" Width="529"/>
         <TextBlock HorizontalAlignment="Left" Margin="639,57,0,0" TextWrapping="Wrap" Text="Opacidad" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Height="30"/>
-        <RadioButton Checked="OpacidadAlta" GroupName="Opacidad" IsChecked="True" Content="Alta" HorizontalAlignment="Left" Margin="639,101,0,0" VerticalAlignment="Top"/>
-        <RadioButton Checked="OpacidadMedia" GroupName="Opacidad" Content="Media" HorizontalAlignment="Left" Margin="639,131,0,0" VerticalAlignment="Top"/>
-        <RadioButton Checked="OpacidadBaja" GroupName="Opacidad" Content="Baja" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="OpacidadAlta_Cheched" GroupName="Opacidad" IsChecked="True" Content="Alta" HorizontalAlignment="Left" Margin="639,101,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="OpacidadMedia_Cheched" GroupName="Opacidad" Content="Media" HorizontalAlignment="Left" Margin="639,131,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="OpacidadBaja_Cheched" GroupName="Opacidad" Content="Baja" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="639,219,0,0" TextWrapping="Wrap" Text="Ajuste" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Height="30"/>
-        <RadioButton Checked="AjusteRelleno" Content="Relleno (Fill)" GroupName="Ajuste" IsChecked="True" HorizontalAlignment="Left" Margin="639,263,0,0" VerticalAlignment="Top"/>
-        <RadioButton Checked="AjusteUniforme" Content="Uniforme (Uniform)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,293,0,0" VerticalAlignment="Top"/>
-        <RadioButton Checked="AjusteRellenoUniforme" Content="Relleno Uniforme (UniformToFill)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,324,0,0" VerticalAlignment="Top"/>
-        <RadioButton Checked="AjusteNone" Content="Sin ajuste (None)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,354,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="AjusteRelleno_Cheched" Content="Relleno (Fill)" GroupName="Ajuste" IsChecked="True" HorizontalAlignment="Left" Margin="639,263,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="AjusteUniforme_Cheched" Content="Uniforme (Uniform)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,293,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="AjusteRellenoUniforme_Cheched" Content="Relleno Uniforme (UniformToFill)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,324,0,0" VerticalAlignment="Top"/>
+        <RadioButton Checked="AjusteNone_Cheched" Content="Sin ajuste (None)" GroupName="Ajuste" HorizontalAlignment="Left" Margin="639,354,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
