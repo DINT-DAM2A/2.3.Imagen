@@ -1,0 +1,9 @@
+3. Implementar una aplicación que muestre una imagen y permita configurar su
+opacidad y su ajuste, teniendo en cuenta estas indicaciones:
+• El usuario podrá elegir tres valores para la opacidad: Alta (100%), Media
+(60%) y Baja (30%).
+• El valor de la opacidad debe ser un número entre 0 y 1 cuando se asigna
+desde el código trasero.
+• Los posibles valores para el ajuste de la imagen se encuentran en la
+enumeración Stretch.
+Nombre del proyecto: 2.3.Imagen
